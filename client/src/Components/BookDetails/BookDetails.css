@@ -1,0 +1,111 @@
+.wrapper {
+  display: flex;
+  margin: 7rem 0 3rem;
+  align-items: center;
+}
+.book-image {
+  border-radius: 10px;
+  width: 350px;
+  height: 500px;
+}
+.iconStart {
+  border: 1px solid orange;
+  width: 130px;
+  padding: 0.2em;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.checked,
+.notCheck {
+  color: orange;
+}
+
+.num {
+  color: orange;
+  margin-left: 1em;
+}
+.data {
+  margin-left: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.content .author {
+  margin-bottom: 1rem;
+  font-size: 15px;
+  color: #00000080;
+}
+.content .price {
+  color: #8d28ad;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.Buy {
+  color: #fff;
+  background-color: #8d28ad;
+  border: 1px solid #8d28ad;
+  padding: 0.7rem 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  min-width: 110px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.Buy i{
+  margin-right: 0.5em;
+}
+.browser {
+  color: #8d28ad;
+  background-color: #fff;
+  border: 1px solid #8d28ad;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+.related-books{
+  margin: 2rem 0 3rem;
+}
+
+.related-books .sec-title{
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.related-books .books{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.related-books .books .single-related{
+  max-width: 18%;  
+}
+
+.related-books .books .single-related:not(:last-child){
+  margin-right: 2.5%;
+}
